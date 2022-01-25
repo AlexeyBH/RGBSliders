@@ -91,7 +91,7 @@ struct SliderGroup: View {
 struct SliderGroup_Previews: PreviewProvider {
     static var previews: some View {
         SliderGroup(
-            color: .red,
+            color: .green,
             range: 0.0...255.0,
             str: .constant("100"),
             value: .constant(100)
